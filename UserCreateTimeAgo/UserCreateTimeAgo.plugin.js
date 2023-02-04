@@ -47,7 +47,6 @@ module.exports = !global.ZeresPluginLibrary ? class {
     }
 
     start() { }
-
     stop() { }
 
 } : (([Plugin, Library]) => {
